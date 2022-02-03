@@ -1,5 +1,7 @@
 # **Activity Tracker**
 
+> NOTE: This is the predecessor of [a better version](https://github.com/dtele/timesleuth).
+
 This GUI-based program logs what a user does and the time they do it for 
 while the program is running and saves it to a JSON file. This data can be 
 read later and is grouped in two ways:
@@ -23,9 +25,3 @@ Made for a school project.
     - Paste in a cmd shell: `python setup.py`/`python3 setup.py` or `pip install -r requirements.txt`
 
 2. Run the program with `gui.py`
-
-
-## **NOTE**
-
-
-In case of ModuleNotFoundError for win32gui, check if pywin32's install location is in PATH.
